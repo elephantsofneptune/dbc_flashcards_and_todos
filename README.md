@@ -1,9 +1,9 @@
 This repo includes 4 challenges that represent the design and development of intermediate Ruby applications
 
-Part 1: Ruby Flashcards 1 single deck:  build a game to test yourself and your pair
-Part 2: Ruby Flashcards 2 MVC pattern:  improve the design
-Part 3: Ruby Todos 1 core features: build a simple todo application with flat-file persistence
-Part 4: Ruby Todos 2 additional features:  build additional features
+- Part 1: Ruby Flashcards 1 single deck:  build a game to test yourself and your pair
+- Part 2: Ruby Flashcards 2 MVC pattern:  improve the design
+- Part 3: Ruby Todos 1 core features: build a simple todo application with flat-file persistence
+- Part 4: Ruby Todos 2 additional features:  build additional features
 
 As you're building these applications, consider the resources available to you including books like [POODR](https://www.dropbox.com/s/edpy25pwtfyeckb/Practical%20Object%20Oriented%20Design%20in%20Ruby.pdf), websites like [sourcemaking](http://sourcemaking.com) that includes a tremendous amount of content around design patterns and refactoring, and the insights you and your peers have had over the past days.
 
