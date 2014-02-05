@@ -1,0 +1,11 @@
+id,todo
+1,have some fun
+2,release all the tension in the world
+3,study study study
+4,call my dad
+5,share some stories
+6,dance around
+7,play a few games
+8,improve my self talk
+9,be happy
+10,groove!
