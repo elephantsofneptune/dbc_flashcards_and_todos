@@ -176,6 +176,3 @@ Post-challenge questions
 - What parts of your code did you have to change to allow for a variable source file?  
 - Which part of your application handles the source file parsing?  Why is this the right place for the code to live?
 - How did you connect user guess attempts with their associated cards?  Should the cards "know" about the number of attempts?
-
-
-##Resources
