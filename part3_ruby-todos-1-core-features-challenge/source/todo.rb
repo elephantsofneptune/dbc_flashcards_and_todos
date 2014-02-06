@@ -9,9 +9,6 @@
 # Note that (4) is where the essence of your application lives.
 # Pretty much every application in the universe has some version of responsibilities (1), (2), and (3).
 
-
-
-
 Task = Struct.new(:name, :completed) do
   def complete
     self.completed = true
@@ -19,28 +16,24 @@ Task = Struct.new(:name, :completed) do
 end
 
 class List
-
-  attr_reader
+  attr_reader :last_deleted
 
   def initialize
-    @tasks=[]
+    @tasks=[Task.new("test1", false), Task.new("test2", false)] # test line, remove test objects!
+    @last_deleted = ''
   end
-
 
   def addTask(task)
     @tasks << Task.new(task, false)
   end
 
-  def deleteTask(task)
-    @tasks.delete(task)
+  def deleteTask(index)
+    @last_deleted = @tasks[index][:name]
+    @tasks.delete_at(index)
   end
 
   def tasks
     @tasks.map { |task| task.name }
-  end
-
-  def complete(name)
-    true
   end
 
 end
@@ -49,8 +42,6 @@ class UI
 
   def initialize
     @list = List.new
-    @list.tasks << "test1"
-    @list.tasks << "test2"
   end
 
   def parse
@@ -59,13 +50,17 @@ class UI
 
     case command
     when :list
-      @list.tasks.each_with_index do |index, task|
-        puts "#{index+1}. #{task}"
+      @list.tasks.each_with_index do |task, index|
+        puts "#{index + 1}. #{task}"
       end
     when :add
       @list.addTask(arguments)
       puts "Appended \"#{arguments}\" to your TODO list."
+    when :delete
+      @list.deleteTask(arguments.to_i - 1)
+      puts "Deleted \"#{@list.last_deleted}\" from your TODO list." # Calling a method from list here = Troubles!
     end
+
   end
 end
 
