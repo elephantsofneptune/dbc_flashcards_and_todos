@@ -40,8 +40,13 @@ end
 
 class UI
 
-  def initialize
+  def initialize(file="todo.csv")
     @list = List.new
+    @file = File.open(file, "w")
+  end
+
+  def write_to_file
+    $stdout = @file
   end
 
   def parse
