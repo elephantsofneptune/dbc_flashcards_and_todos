@@ -1,0 +1,13 @@
+1. [ ] [2013-02-10 21:59:58] Move with Lil to the black mountain hills of Dakota
+2. [ ] [2013-02-10 21:59:58] Lose Lil to Danny
+3. [X] [2013-02-10 21:59:58] Get hit in the eye by Danny
+4. [X] [2013-02-10 21:59:58] Walk into town seeking revenge
+5. [ ] [2013-02-10 21:59:58] Book room at local saloon
+6. [ ] [2013-02-10 21:59:58] Check into room, read Gideon's bible
+7. [X] [2013-02-10 21:59:58] Drink too much gin
+8. [ ] [2013-02-10 21:59:58] Overhear Lil and Danny in neighboring room
+9. [X] [2013-02-10 21:59:58] Burst into neighboring room, declaring showdown
+10. [X] [2013-02-10 21:59:58] Get shot by Danny and collapse in corner
+11. [X] [2013-02-10 21:59:58] Visit doctor
+12. [X] [2013-02-10 21:59:58] Return to room, read Gideon's bible
+13. [X] [2013-02-10 21:59:58] Commit and submit

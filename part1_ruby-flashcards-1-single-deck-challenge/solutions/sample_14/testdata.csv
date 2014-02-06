@@ -1,0 +1,5 @@
+term,definition
+divmod,returns the quotient and the modulus for a given dividend and divisor
+index,returns the value for a given index
+zip,pairs the elements from two arrays to create a nested array of arrays with paired couplets
+find,returns the first element from a collection that is true for a given block
